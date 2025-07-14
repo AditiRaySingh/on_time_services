@@ -1,0 +1,595 @@
+
+
+
+/* Find_Services_Providers */
+.Find_Services_Providers
+{
+
+    justify-items: center;
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 900;
+}
+
+
+/* search_container */
+
+.search_container
+{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.search1
+{
+border: 1px solid #ccc;
+border-radius: 8px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+
+}
+
+.search1 input{
+    border:none;
+     font-size: 20px;
+     outline: none;
+     width: 500px;
+}
+.search2
+{
+border: 1px solid #ccc;
+border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+.search2 input{
+    border:none;
+     font-size: 20px;
+     outline: none;
+     width: 300px;
+}
+.map img
+{
+    height:30px ;
+    width: 30px;
+    border-radius:80%;
+    border:2px solid purple ;
+    object-fit: cover;
+    box-shadow: 0 0 10px pink;
+}
+
+.search3
+{
+border: 1px solid #ccc;
+border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    background-color: #DA70D6;
+    color: white;
+
+}
+.search3 input{
+    border:none;
+     font-size: 20px;
+     outline: none;
+     width: 90px;
+     background-color: #DA70D6;
+     color: white;
+}
+     
+.search3 input::placeholder {
+  color: white;
+}
+
+
+
+/* list container */
+
+.list_container
+{
+display: flex;
+flex-direction: row;
+cursor: pointer;
+}
+
+.list_item
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.l1,.l2,.l3,.l4,.l5,.l6,.l7{
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    background-color:white;
+   
+    border-radius: 10px;
+   
+    text-align: center;
+    padding-top: 10px;
+}
+
+.l1{
+ color: hsl(240, 100%, 50%);
+  border:2px solid rgb(61, 156, 194); 
+}
+
+
+.l2{
+ color: rgb(140, 140, 12);
+  border:2px solid yellow; 
+}
+
+
+
+.l3{
+ color:orangered;
+  border:2px solid rgb(221, 110, 70); 
+}
+
+
+.l4{
+ color: rgb(8, 95, 8);
+  border:2px solid lightgreen;
+}
+
+
+.l5{
+ color: hsl(240, 100%, 50%);
+  border:2px solid rgb(61, 156, 194); 
+}
+
+
+.l6{
+ color: purple;
+  border:2px solid rgb(174, 99, 174); 
+}
+
+
+.l7{
+ color:dark rgb(209, 20, 121);
+  border:2px solid pink; 
+}
+
+
+.l8{
+    color:red;
+    border:2px solid rgb(232, 76, 76); 
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.l1:active{
+    background-color:rgb(31, 185, 237);
+    transform: scale(1.1);
+}
+
+
+
+.l2:active{
+    background-color:rgb(232, 232, 120);
+    transform: scale(1.1);
+}
+
+
+
+.l3:active{
+    background-color:pink;
+    transform: scale(1.1);
+}
+
+
+.l4:active{
+    background-color:lightgreen;
+    transform: scale(1.1);
+}
+
+
+.l5:active{
+    background-color:rgb(101, 208, 251);
+    transform: scale(1.1);
+}
+
+
+.l6:active{
+    background-color:rgb(236, 122, 236);
+    transform: scale(1.1);
+}
+
+
+.l7:active{
+    background-color:palevioletred;
+    transform: scale(1.1);
+}
+
+
+.l8:active{
+    background-color:rgb(236, 174, 174);
+    transform: scale(1.1);
+}
+
+
+
+
+.list_map_container
+{
+display:flex;
+flex-direction: row;
+
+}
+
+ 
+.List{
+height: 40px;
+width: 70px;
+color: white;
+background:linear-gradient(to right, deeppink, purple);
+border-radius: 8px;
+display: flex;
+flex-direction: row;
+gap:10px;
+justify-content: center;
+text-align: center;
+font-size: 20px;
+cursor: pointer;
+margin-top:6px;
+
+}
+
+.icon{
+margin-top: 8px;
+}
+
+.lo 
+{
+    margin-top: 10px;
+}
+
+
+.list_container
+{
+   gap:180px;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+
+
+
+.MAP{
+height: 30px;
+width: 50px;
+color: white;
+background-color: rgb(255, 201, 209);
+border-radius: 8px;
+display: flex;
+flex-direction: row;
+gap:10px;
+justify-content: center;
+text-align: center;
+font-size: 20px;
+cursor: pointer;
+margin-top: 9px;
+}
+
+
+.icon_Map{
+margin-top: 8px;
+}
+
+.mo 
+{
+    margin-top:10px;
+}
+
+.list_map_container
+{
+    display: flex;
+    flex-direction: row;
+  background-color: rgb(255, 201, 209);
+  height: 50px;  
+  width: 180px;
+  justify-content: center;
+  border-radius: 20px;
+  gap:20px;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  margin-bottom: 20px;
+  
+}
+
+
+/* found_container */
+
+
+
+.name_detail_container
+{
+    display: flex;
+    height: 180px;
+    width: 200;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+
+}
+.found_container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.found 
+{
+    color: rgba(0, 0, 0, 0.63);
+    gap:200px;
+    padding: 0 120px;
+}
+
+.sort_container
+{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+      flex-wrap: wrap;
+          padding: 0 20px;
+
+
+}
+
+.rating,.price,.distance
+{
+    height:30px;
+    width: 80px;
+    color: black;
+    background:rgb(247, 227, 230);
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-top:8px;
+    font-weight: 00;
+}
+
+.rating h3,
+.price h3,
+.distance h3 {
+  margin: 0;
+  transform: translateY(-1px); /* or -10px for more shift */
+}
+
+.distance
+{
+    background-color: #DA70D6;
+}
+
+
+
+ /* person detail */
+
+ 
+
+
+
+ .name_detail_container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  width:1200px; 
+  margin: 20px auto; /* center on page */
+  background-color: white;
+  position: relative; /* for absolute-positioned content if needed */
+  gap:20px;
+  height: 150px;
+}
+
+ .name_verified
+ {
+     display: flex;
+     flex-direction:column;
+     margin: 10px;  
+     margin-top:0px; 
+ }
+ .people_img_container
+ {
+    display: flex;
+    flex-direction:row;
+ }
+
+.photo
+{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    background-color:rgb(246, 228, 231);
+    border-radius: 10px;
+}
+
+.name
+{
+    font-size:20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.663);
+    margin-top:10px;
+}
+
+.verified
+{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.529);
+    font-weight: 530;
+    margin-top:-10px;
+}
+
+
+.detail 
+{
+display: flex;
+flex-direction:column;
+gap:10px;
+}
+
+
+.connaught_delhi
+{
+    display: flex;
+    flex-direction: row;
+    gap:1px;
+    align-items: center;
+
+}
+.connaught_delhi h5 {
+  margin: 0;
+  font-size: 14px;
+  gap:2px;
+  margin: 0;
+ padding: 0;
+}
+
+.Connaught_available
+{
+    flex-direction:row;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    transform: translateY(-30px);
+    white-space: nowrap;
+
+}
+.Available_today
+{
+    
+  font-size: 14px;
+
+  gap:6px;
+  display: flex;
+  
+ 
+}
+
+.connaught_delhi h5,
+.Available_today h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight:400px;
+  color: rgba(0, 0, 0, 0.667);
+}
+
+
+.connaught_delhi,
+.Available_today {
+  display: flex;
+  align-items: center;  
+  gap: 6px;
+
+}
+
+
+/* booking container */
+
+.Booking_container
+{
+    flex-direction: row;
+    display: flex;
+     transform: translateY(-30px);
+     gap:10px;
+
+
+}
+
+.book_now,.call,.view_profile
+{
+    height: 30px;
+    background-color:rgb(214, 62, 214);
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    gap:6px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.call,.view_profile
+{
+background-color: white;
+color:rgba(0, 0, 0, 0.818);
+border:1px solid black;
+}
+
+.book_now h5,
+.view_profile h5 {
+  margin: 0;
+  color:rgba(0, 0, 0, 0.625);
+  font-size: 14px;
+  line-height: 30px;   /* ⬅︎ this single line vertically centers the text */
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    justify-content: center;
+    justify-items: center;}
+
+.material-symbols-outlined call_icon {
+  color:rgba(0, 0, 0, 0.336);
+  font-size: 16px;
+}
+
+
+
+.review_container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-end; 
+    width: 100%; 
+    
+}
+
+.star {
+    display: flex;
+    flex-direction:column;
+    gap: 2px;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.ratingandpeople,.rupees
+{
+    margin: 0;
+    transform: translateY(-100px);
+    color: rgba(0, 0, 0, 0.559);
+    
+}
